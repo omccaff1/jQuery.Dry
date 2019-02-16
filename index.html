@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- first step to a responsive site -->
-    <title>HTML Skeleton</title>
+    <title>Aids image changer</title>
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -26,10 +26,25 @@
   <body>
     <!-- YOUR CONTENT GOES HERE -->
 
+    <div class="container">
+      <h1>Button Interactivity v3 More Dry</h1>
+      <img id="aids-img" src="img/man.jpg">
+      <div class="holds-buttons" <h2>Use the buttons to switch images</h2>
+        <!--Only the first button has an ID because it needs to be disabled at first view--!>
+  <!--Give buttons a class called my-button-->
+        <button id="button-img-1" class="my-button" data-image="img/man.jpg">Image 1</button> <br />
+        <button class="my-button" data-image="img/baby.jpg">Image 2</button>
+        <button class="my-button" data-image="img/bath.jpg">Image 3</button>
+        <button class="my-button" data-image="img/tubes.jpg">Image 4</button>
+      </div>
+    </div>
+
     <!-- the jQuery library. You need this to be able to use jQuery ($) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Your javascript should be called here -->
+
+    <script src="main.js"></script>
   </body>
 
 </html>
